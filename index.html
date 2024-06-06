@@ -2,17 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cloey</title>
   </head>
   <body>
     <div id="root"></div>
 
-     <!-- Add from for detecting by Netlify to handle the contact form submition -->
-  <form name="contactCloey" netlify netlify-honeypot="bot-field">
-    <textarea name="message"></textarea>
-  </form>
+    <!-- Add from for detecting by Netlify to handle the contact form submition -->
+    <form name="contactCloey" netlify netlify-honeypot="bot-field" hidden>
+      <textarea name="message"></textarea>
+    </form>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
