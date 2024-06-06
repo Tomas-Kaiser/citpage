@@ -1,3 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+
+.section-bg {
+    background-image: url("../src/assets/bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
