@@ -9,7 +9,7 @@ const ContactPage = () => {
         <input type="hidden" name="form-name" value="contactCloey" />
         <Box mb="3">
             <FormLabel color='#e612bf'>Your suggestions</FormLabel>
-            <Textarea id="message" name="message" focusBorderColor="green.500" isRequired={true} />
+            <Textarea id="message" name="message" focusBorderColor="#df89cf" isRequired={true} />
         </Box>
         <Flex justify="center">
             <Button type="submit" bg='#e612bf' _hover={{ bg: '#df89cf' }} style={{ width: '100%', color: '#f7fafc' }}>Send</Button>
