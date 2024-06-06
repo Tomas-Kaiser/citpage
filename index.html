@@ -10,7 +10,7 @@
     <div id="root"></div>
 
      <!-- Add from for detecting by Netlify to handle the contact form submition -->
-  <form name="contact-cloey" data-netlify="true" hidden>
+  <form name="contact-cloey" netlify netlify-honeypot="bot-field" hidden>
     <textarea id="message" name="message"></textarea>
   </form>
     <script type="module" src="/src/main.tsx"></script>
