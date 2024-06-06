@@ -5,7 +5,7 @@ const ContactPage = () => {
     <Flex p={{ base: 5, md: 8, lg: 12 }} mt={{ base: 20 }} direction="column" align="center" justify="center">
     <Heading id="contact-form" pb={5} color='#176734'>When do you want me to do a very first lecture?</Heading>
     <Text pb={12} color='#176734'>Give me a date</Text>
-    <Box as="form" w={{ base: '280px', sm: '400px', md: '500px', lg: '750px' }} name="contact" method="post" data-netlify="true">
+    <Box as="form" w={{ base: '280px', sm: '400px', md: '500px', lg: '750px' }} name="contact-cloey" method="post" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <Box mb="3">
             <FormLabel color='#176734'>Your suggestions</FormLabel>
